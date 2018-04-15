@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.center{
+    position: relative;
+    margin: 20px auto;
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: rgb(123, 123, 163);
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#calculator{
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background: #ddd;
+}
+
+#operations{
+    position: relative;
+    margin: 20px auto;
+    width: 70%;
+    background: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px #999;
+    padding: 10%;
+    text-align: right;
+    font-size: 25px;
+    overflow: hidden;
+
+}
+
+#calculator ul{
+    margin-left: 5px;
+}
+
+#calculator ul li{
+    float: left;
+    padding: 32px;
+    width: 15px;
+    text-align: center;
+    margin: 8px;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #999;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#calculator ul li:hover{
+    background: rgb(92, 196, 228);
+    color: white;
+}
+#calculator ul li:active{
+    background: rgb(65, 36, 194);
+    color: white;
+}
+
+#delete{
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 15px;
+    width: 60px;
+    background: rgb(134, 6, 44);
+    border-radius: 10px;
+    left: 150px;
+    border: 5px solid #bbb;
+    color: white;
+    cursor: pointer;
+}
+
+#delete:hover{
+    background: purple;
+}
+
+#delete:active{
+    background: rgb(134, 6, 44);
+}
